@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dados de Usuário aleatórios</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="cartao-perfil">
+        <img
+          src="https://robohash.org/laboreetvoluptas.png?size=300x300&set=set1"
+          class="foto"
+          id="fotoPerfil"
+        />
+        <div class="dados-user">
+          <h2 id="nomePerfil"></h2>
+          <p id="sexoPerfil"></p>
+        </div>
+        <div class="block alinhar-centro">
+          <p id="userPerfil"></p>
+          <p id="emailPerfil"></p>
+          <p id="telefonePerfil"></p>
+        </div>
+        <div>
+          <p id="cargoPerfil"></p>
+          <p id="setorPerfil"></p>
+        </div>
+      </div>
+      <div class="cartao-dados">
+        <div class="block">
+          <p class="titulo-block">Endereço</p>
+          <span id="ruaPerfil"></span>, <span id="ruanumeroPerfil"></span><br />
+          <span id="cidadePerfil"></span> - <span id="estadoPerfil"></span> -
+          <span id="paisPerfil"></span>
+        </div>
+        <div class="block">
+          <p class="titulo-block">Plano</p>
+          <span id="nomePlano"></span>
+          <span id="recorrenciaPlano"></span>
+          <span id="pagamentoPlano"></span>
+          <span id="statusPlano"></span>
+        </div>
+        <div class="block">
+          <p class="titulo-block">Cartão de credito</p>
+          <p id="numeroCartao"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-color: #2E41AE;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+  }
+  
+  .cartao-perfil {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .dados-user h2,
+  .dados-user p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dados-user h2 {
+    font-size: 28px;
+  }
+  
+  .cartao-dados {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .foto {
+    border-radius: 999px;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    background: #D9D9D9;
+    margin-top: -80px;
+  }
+  
+  .block {
+    border-radius: 30px;
+    background-color: #F5F7F9;
+    padding: 30px;
+  }
+  
+  .titulo-block {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  
+  #statusPlano {
+    color: #2E41AE;
+    font-size: 14px;
+    padding: 15px;
+  }
